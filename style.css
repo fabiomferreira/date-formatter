@@ -1,0 +1,54 @@
+body {
+  background: #faf9fc;
+}
+
+input[type=date] {
+  padding: .5rem 1rem .5rem 2rem;
+  font-size: 1.25rem;
+  border: 2px solid #edeef3;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px #eee;
+  background: url(birthday.png) no-repeat scroll 8px 10px;
+}
+
+input[type=date]:hover {
+  border-color: #ddd;
+}
+
+input[type=date]:focus {
+  border-color: #0870ff;
+}
+
+input[type=date]:invalid {
+  border-color: red;
+}
+
+input[type=date]:before {
+  content: '';
+}
+
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    display: none;
+}
+
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+#result,#utc {
+  font-size: 2rem;
+  color: rgb(136, 136, 136);
+}
+
+
+.center {
+  width: 200px;
+  height: 50px;
+  margin: 280px auto;
+}
